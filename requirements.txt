@@ -1,0 +1,7 @@
+datetime
+numpy
+pandas
+requests
+tqdm
+beautifulsoup4
+selenium
