@@ -10,11 +10,15 @@ The script may not work properly in the future due to updates on the target page
 
 ## Description
 
+This repository is part of the original project performed by [José Dos Reis - josedosr](https://github.com/josedosr), [Pamela Colman - pamve](https://github.com/pamve) and me.
+
+If you want more information, please check the original project [here](https://github.com/josedosr/flight_tickets_ETL).
+
 This script can search and collect data from the eDreams search engine based on the provided dates and locations. The collected data can be processed using pandas or similar libraries.
 
 ## Demo Video
 
-[See the demo video](demo_scraping.mp4)
+[See the demo video](https://github.com/devmunoz/travel-flights-scraping/raw/refs/heads/master/demo_scraping.mp4)
 
 ## Installation and Execution
 
