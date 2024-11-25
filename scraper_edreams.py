@@ -14,9 +14,6 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# Driver de Chrome
-chrome_driver = "chromedriver.exe"
-
 
 # Funcion principal del scrapeo a edreams. Gestiona todas las acciones necesarias para scrapear (selenium, diferentes urls, soap, preparar y devolver datos)
 def scrapping_edreams(origen, inicio, fin):
@@ -581,7 +578,7 @@ def scrap(fechas, origenes):
 
 if __name__ == "__main__":
     # Configuración de argparse para recibir argumentos desde la línea de comandos
-    parser = argparse.ArgumentParser(description="eDreams flights scrpaing script")
+    parser = argparse.ArgumentParser(description="eDreams flights scraping script")
 
     # Parámetro para las fechas como un JSON string
     parser.add_argument(
